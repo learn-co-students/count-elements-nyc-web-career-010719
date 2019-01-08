@@ -1,7 +1,7 @@
 require "pry"
 
 def count_elements(array)
-  array.inject(Hash.new(0)) { |h,v| h[v] += 1; h }
+  array.inject(Hash.new(0)) { |x,y| x[y] += 1; x }
   # new_hash = {}
   # count = 0
   # array.each do |x|
